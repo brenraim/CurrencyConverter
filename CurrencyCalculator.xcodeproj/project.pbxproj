@@ -14,6 +14,8 @@
 		B52CD2611D392E8D00B7E0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52CD2601D392E8D00B7E0C6 /* Assets.xcassets */; };
 		B52CD2641D392E8D00B7E0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52CD2621D392E8D00B7E0C6 /* LaunchScreen.storyboard */; };
 		B52CD26F1D392E8D00B7E0C6 /* CurrencyCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CD26E1D392E8D00B7E0C6 /* CurrencyCalculatorUITests.m */; };
+		B52CD27B1D392EBF00B7E0C6 /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CD27A1D392EBF00B7E0C6 /* ExchangeRate.m */; };
+		B52CD27E1D392F3200B7E0C6 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = B52CD27D1D392F3200B7E0C6 /* Currency.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B52CD26A1D392E8D00B7E0C6 /* CurrencyCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B52CD26E1D392E8D00B7E0C6 /* CurrencyCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrencyCalculatorUITests.m; sourceTree = "<group>"; };
 		B52CD2701D392E8D00B7E0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52CD2791D392EBF00B7E0C6 /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		B52CD27A1D392EBF00B7E0C6 /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
+		B52CD27C1D392F3200B7E0C6 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		B52CD27D1D392F3200B7E0C6 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				B52CD2581D392E8D00B7E0C6 /* AppDelegate.m */,
 				B52CD25A1D392E8D00B7E0C6 /* ViewController.h */,
 				B52CD25B1D392E8D00B7E0C6 /* ViewController.m */,
+				B52CD27C1D392F3200B7E0C6 /* Currency.h */,
+				B52CD27D1D392F3200B7E0C6 /* Currency.m */,
+				B52CD2791D392EBF00B7E0C6 /* ExchangeRate.h */,
+				B52CD27A1D392EBF00B7E0C6 /* ExchangeRate.m */,
 				B52CD25D1D392E8D00B7E0C6 /* Main.storyboard */,
 				B52CD2601D392E8D00B7E0C6 /* Assets.xcassets */,
 				B52CD2621D392E8D00B7E0C6 /* LaunchScreen.storyboard */,
@@ -211,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52CD27B1D392EBF00B7E0C6 /* ExchangeRate.m in Sources */,
 				B52CD25C1D392E8D00B7E0C6 /* ViewController.m in Sources */,
 				B52CD2591D392E8D00B7E0C6 /* AppDelegate.m in Sources */,
 				B52CD2561D392E8D00B7E0C6 /* main.m in Sources */,
+				B52CD27E1D392F3200B7E0C6 /* Currency.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +414,7 @@
 				B52CD2751D392E8D00B7E0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B52CD2761D392E8D00B7E0C6 /* Build configuration list for PBXNativeTarget "CurrencyCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +423,7 @@
 				B52CD2781D392E8D00B7E0C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
